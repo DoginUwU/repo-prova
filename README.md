@@ -2,6 +2,8 @@
 
 Develop a frontend application, using Vue.js to build the interfaces, which consume the Github API (https://docs.github.com/en/rest) with the purpose of searching, listing on Github repositories.
 
+Project running on vercel: https://repo-prova.vercel.app/
+
 ## Objectives
 - [X] A search field.
 - [X] Repository details screen.
