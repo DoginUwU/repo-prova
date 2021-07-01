@@ -15,10 +15,17 @@ yarn serve
 yarn build
 ```
 
+### Test project
+```
+yarn test
+```
+
+### Get coverage informations
+```
+yarn coverage
+```
+
 ### Lints and fixes files
 ```
 yarn lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
