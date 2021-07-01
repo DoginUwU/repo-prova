@@ -24,6 +24,7 @@ export const storeConfigs = {
         state.user = {
           repos: [],
         };
+        alert("User not found");
       }
     },
   },
