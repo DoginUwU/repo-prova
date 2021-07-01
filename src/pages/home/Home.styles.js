@@ -11,4 +11,8 @@ export const Cards = styled.div`
     grid-template-columns: 1fr;
     padding: 0 2rem;
   }
+
+  @media (max-width: 1100px) {
+    padding: 0 2rem;
+  }
 `;

@@ -3,6 +3,11 @@ import styled from "vue-styled-components";
 export const Container = styled.div`
   position: relative;
 
+  .description {
+    margin-left: 1rem;
+    color: var(--gray-900);
+  }
+
   &::before {
     display: block;
     content: "";
@@ -14,6 +19,12 @@ export const Container = styled.div`
     right: 0;
   }
   padding: 1rem;
+
+  @media (max-width: 1100px) {
+    .description {
+      display: none;
+    }
+  }
 `;
 
 export const Title = styled.p`
@@ -30,7 +41,7 @@ export const Details = styled.div`
   margin-top: 1rem;
   flex-wrap: wrap;
 
-  @media (max-width: 800px) {
+  @media (max-width: 850px) {
     margin-top: 0.5rem;
     margin-left: 0;
     gap: 1rem;
@@ -72,7 +83,7 @@ export const Button = styled.a`
     height: 1.5rem;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 850px) {
     padding: 0.5rem 1rem;
   }
 `;

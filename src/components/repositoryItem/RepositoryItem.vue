@@ -3,6 +3,9 @@
     <Title>
       {{ repository.name }}
     </Title>
+    <div class="description">
+      {{ repository.description }}
+    </div>
     <Details>
       <div
         v-if="!!repository.language"
