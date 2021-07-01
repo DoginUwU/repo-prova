@@ -1,5 +1,24 @@
 # repo-prova
 
+Develop a frontend application, using Vue.js to build the interfaces, which consume the Github API (https://docs.github.com/en/rest) with the purpose of searching, listing on Github repositories.
+
+## Objectives
+- [X] A search field.
+- [X] Repository details screen.
+- [X] Vue.js
+- [X] Axios
+- [X] Vue Router
+### Repository listing screen:
+- [X] Title
+- [X] Description
+- [X] main language
+- [X] number of stars
+### Optionals
+- [X] Vuex
+- [X] Tests (100% coverage)
+- [X] Stylization library (styled-components)
+
+
 ## Project setup
 ```
 yarn install
