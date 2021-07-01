@@ -8,7 +8,7 @@ Develop a frontend application, using Vue.js to build the interfaces, which cons
 - [X] Vue.js
 - [X] Axios
 - [X] Vue Router
-### Repository listing screen:
+### Repository screen:
 - [X] Title
 - [X] Description
 - [X] Main language
