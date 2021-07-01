@@ -11,8 +11,8 @@ Develop a frontend application, using Vue.js to build the interfaces, which cons
 ### Repository listing screen:
 - [X] Title
 - [X] Description
-- [X] main language
-- [X] number of stars
+- [X] Main language
+- [X] Number of stars
 ### Optionals
 - [X] Vuex
 - [X] Tests (100% coverage)
