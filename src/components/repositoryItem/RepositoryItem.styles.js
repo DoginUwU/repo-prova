@@ -6,6 +6,7 @@ export const Container = styled.div`
   .description {
     margin-left: 1rem;
     color: var(--gray-900);
+    width: 50%;
   }
 
   &::before {
